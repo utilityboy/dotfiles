@@ -15,5 +15,5 @@ workflow "New workflow" {
 
 action "docker://ubuntu" {
   uses = "docker://ubuntu"
-  runs = "sudo apt-get update >/dev/null && sudo apt-get install -y zsh && make ci"
+  runs = "apt-get update && apt-get install -y zsh && make ci"
 }
