@@ -49,3 +49,4 @@ unset config_files updated_at
 [ -f ~/.localrc ] && . ~/.localrc
 
 # zprof
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"

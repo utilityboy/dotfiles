@@ -1,26 +1,19 @@
 {
   "editor.fontSize": 15,
-  "editor.formatOnSave": true,
   "editor.rulers": [
     80,
     120
   ],
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "editor.tabCompletion": "on",
   "explorer.openEditors.visible": 0,
-  "window.restoreWindows": "none",
+  "window.restoreWindows": "all",
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontSize": 14,
-  "files.autoSave": "onFocusChange",
   "extensions.autoUpdate": true,
-  "editor.cursorBlinking": "phase",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "files.trimTrailingWhitespace": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
-  "workbench.colorTheme": "Dracula",
-  "window.zoomLevel": 0,
   "extensions.ignoreRecommendations": false,
   "go.coverageDecorator": {
     "type": "gutter"
@@ -31,9 +24,7 @@
     "/vendor": true
   },
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.fontAliasing": "auto",
   "workbench.editor.showIcons": true,
-  "explorer.confirmDragAndDrop": false,
   "search.smartCase": true,
   "files.associations": {
     "*.tmpl": "gotemplate"
@@ -55,7 +46,6 @@
   "ruby.codeCompletion": "rcodetools",
   "ruby.useLanguageServer": true,
   "go.autocompleteUnimportedPackages": true,
-  "editor.fontWeight": "600",
   "terminal.integrated.cursorBlinking": true,
   "go.coverOnSingleTest": true,
   "terminal.integrated.cursorStyle": "line",
@@ -69,12 +59,60 @@
     "autoComplete": true
   },
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "window.newWindowDimensions": "maximized",
   "go.buildFlags": [
     "-v"
   ],
-  "editor.fontFamily": "Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
-  "editor.smoothScrolling": true
+  "editor.fontFamily": "FuraCodeNerdFontComplete-Retina",
+  "editor.fontLigatures": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.maxTokenizationLineLength": 1000000,
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.quickOpen.closeOnFocusLost": false,
+  "workbench.quickOpen.preserveInput": true,
+  "workbench.fontAliasing": "auto",
+  "zenMode.hideTabs": false,
+  "workbench.editor.closeEmptyGroups": false,
+  "window.zoomLevel": 0,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "html.format.indentHandlebars": true,
+  "indenticator.inner.showHighlight": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "prettier.printWidth": 120,
+  "prettier.configPath": "~/.prettierrc",
+  "yaml.schemas": {
+    "file:///Users/brent/.vscode/extensions/atlassian.atlascode-2.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "4adf1a86-6380-446e-bb7c-ca43180f7242",
+      "enabled": true,
+      "name": "My funnelcloud Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "42ec597a-c73b-4c19-af28-3c345a23aff6",
+      "monitor": true
+    }
+  ],
+  "atlascode.jira.todoIssues.enabled": false,
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.jira.explorer.refreshInterval": 0,
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "42ec597a-c73b-4c19-af28-3c345a23aff6",
+    "projectKey": "ENG"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "customizeUI.stylesheet": {
+    ".quick-input-widget": "width:800px !important"
+  }
 }

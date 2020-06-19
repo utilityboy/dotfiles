@@ -1,6 +1,7 @@
 [difftool "diffmerge"]
 	cmd = diffmerge $LOCAL $REMOTE
 [alias]
+	st = status
 	co = checkout
 	count = shortlog -sn
 	g = grep --break --heading --line-number
