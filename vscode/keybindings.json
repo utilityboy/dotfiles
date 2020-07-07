@@ -1,60 +1,60 @@
-// Place your key bindings in this file to overwrite the defaults
-[
-  {
-    "key": "ctrl+k ctrl+d",
-    "command": "editor.action.formatDocument",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+k cmd+b",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "shift+cmd+enter",
-    "command": "workbench.action.toggleMaximizedPanel",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+k right",
-    "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+k left",
-    "command": "-workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+w",
-    "command": "-workbench.action.closeWindow",
-    "when": "!editorIsOpen && !multipleEditorGroups"
-  },
-  {
-    "key": "cmd+w",
-    "command": "-workbench.action.closeGroup",
-    "when": "activeEditorGroupEmpty && multipleEditorGroups"
-  },
-  {
-    "key": "shift+cmd+w",
-    "command": "workbench.action.closeGroup"
-  },
-  {
-    "key": "shift+cmd+w",
-    "command": "-workbench.action.closeWindow"
-  },
-  {
-    "key": "shift+cmd+enter",
-    "command": "workbench.action.toggleEditorWidths"
-  },
-  {
-    "key": "cmd+0",
-    "command": "workbench.action.zoomReset"
-  },
-  {
-    "key": "cmd+numpad0",
-    "command": "-workbench.action.zoomReset"
-  },
-  {
-    "key": "alt+cmd+r",
-    "command": "extension.railsGoToSpec",
-    "when": "editorTextFocus && editorLangId == ruby"
-  },
-]
+// // Place your key bindings in this file to overwrite the defaults
+// [
+//   {
+//     "key": "ctrl+k ctrl+d",
+//     "command": "editor.action.formatDocument",
+//     "when": "editorTextFocus && !editorReadonly"
+//   },
+//   {
+//     "key": "cmd+k cmd+b",
+//     "command": "workbench.action.toggleSidebarVisibility"
+//   },
+//   {
+//     "key": "shift+cmd+enter",
+//     "command": "workbench.action.toggleMaximizedPanel",
+//     "when": "terminalFocus"
+//   },
+//   {
+//     "key": "cmd+k right",
+//     "command": "workbench.action.splitEditor"
+//   },
+//   {
+//     "key": "cmd+k left",
+//     "command": "-workbench.action.splitEditor"
+//   },
+//   {
+//     "key": "cmd+w",
+//     "command": "-workbench.action.closeWindow",
+//     "when": "!editorIsOpen && !multipleEditorGroups"
+//   },
+//   {
+//     "key": "cmd+w",
+//     "command": "-workbench.action.closeGroup",
+//     "when": "activeEditorGroupEmpty && multipleEditorGroups"
+//   },
+//   {
+//     "key": "shift+cmd+w",
+//     "command": "workbench.action.closeGroup"
+//   },
+//   {
+//     "key": "shift+cmd+w",
+//     "command": "-workbench.action.closeWindow"
+//   },
+//   {
+//     "key": "shift+cmd+enter",
+//     "command": "workbench.action.toggleEditorWidths"
+//   },
+//   {
+//     "key": "cmd+0",
+//     "command": "workbench.action.zoomReset"
+//   },
+//   {
+//     "key": "cmd+numpad0",
+//     "command": "-workbench.action.zoomReset"
+//   },
+//   {
+//     "key": "alt+cmd+r",
+//     "command": "extension.railsGoToSpec",
+//     "when": "editorTextFocus && editorLangId == ruby"
+//   },
+// ]
